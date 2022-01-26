@@ -5,9 +5,9 @@ def calculatePay():
     rate = float (input("Enter Rate: ")) 
 
     if hrs <= 40:
-        pay = hrs * rate
+        pay = rate*hrs
         
-    else:
+    if hrs > 40:
         pay = (40 * rate) + ((hrs-40) *(rate*1.5))
     
     print ("Pay: ", pay)
@@ -17,4 +17,4 @@ def calculatePay():
 ## uncomment calculatePay() and run > python payCalculator.py
 ## ***IMPORTANT*** please recomment before you submit/sync your assignment.
 ## OR YOUR TEST WILL NOT RUN
-#calculatePay()
+calculatePay()
