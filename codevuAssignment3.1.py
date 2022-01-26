@@ -10,7 +10,7 @@ def calculatePay():
     else:
         pay = (40 * rate) + ((hrs-40) *(rate*1.5))
     
-    print ("Pay: ", pay)
+    print ("Pay: ",pay)
 
     # end assignment
 
