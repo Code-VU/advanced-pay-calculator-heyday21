@@ -11,6 +11,7 @@ def calculatePay():
         pay = (40 * rate) + ((hrs-40) *(rate*1.5))
     
     print ("Pay: ", pay)
+    
     # end assignment
 
 ## if you want to test locally before you try to sync
