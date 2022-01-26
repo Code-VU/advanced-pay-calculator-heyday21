@@ -7,11 +7,11 @@ def calculatePay():
     if hrs <= 40:
         pay = rate*hrs
         
-    if hrs > 40:
+    else:
         pay = (40 * rate) + ((hrs-40) *(rate*1.5))
     
     print ("Pay: ", pay)
-    
+
     # end assignment
 
 ## if you want to test locally before you try to sync
